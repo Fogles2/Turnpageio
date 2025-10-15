@@ -30,3 +30,13 @@
 .bg-gradient-blue-8 {
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%) !important;
 }
+
+
+.bg-dark-blue-gradient {
+  background: linear-gradient(135deg, #000080 0%, #4169e1 100%) !important; /* Dark blue to Royal Blue */
+}
+
+.underglow-effect {
+  box-shadow: 0 0 15px 5px rgba(65, 105, 225, 0.7); /* Royal Blue underglow */
+}
+

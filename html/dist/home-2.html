@@ -31,6 +31,31 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+		<style>
+			.plan-badge {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				background: #0d6efd;
+				color: white;
+				padding: 5px 10px;
+				border-radius: 5px;
+				font-size: 12px;
+				font-weight: bold;
+			}
+			.plan-icon {
+				position: absolute;
+				top: 10px;
+				right: 60px;
+				font-size: 20px;
+				color: #0d6efd;
+			}
+			.plan-button {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+			}
+		</style>
 	</head>
 
 	<body  class="bg-light dark:bg-dark-subtle" >
@@ -1074,168 +1099,3 @@
 							</a>
 						</li>
 						<li class="navigation-1__menu-list has-sub-level-2">
-							<a href="#" class="link navigation-1__menu-link">
-								Utility
-							</a>
-							<ul class="navigation-1__sub-menu">
-								<li class="navigation-1__sub-menu-list">
-									<a
-										href="404.html"
-										class="link navigation-1__sub-menu-link"
-									>
-										404
-									</a>
-								</li>
-								<li class="navigation-1__sub-menu-list">
-									<a
-										href="coming-soon.html"
-										class="link navigation-1__sub-menu-link"
-									>
-										Coming Soon
-									</a>
-								</li>
-								<li class="navigation-1__sub-menu-list">
-									<a
-										href="login.html"
-										class="link navigation-1__sub-menu-link"
-									>
-										Login
-									</a>
-								</li>
-								<li class="navigation-1__sub-menu-list">
-									<a
-										href="signup.html"
-										class="link navigation-1__sub-menu-link"
-									>
-										Sign Up
-									</a>
-								</li>
-								<li class="navigation-1__sub-menu-list">
-									<a
-										href="forgot-password.html"
-										class="link navigation-1__sub-menu-link"
-									>
-										Forgot Password
-									</a>
-								</li>
-								<li class="navigation-1__sub-menu-list">
-									<a
-										href="reset-password.html"
-										class="link navigation-1__sub-menu-link"
-									>
-										Reset Password
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<div class="d-flex align-items-center gap-2 ms-lg-4">
-				<a href="#" class="btn btn-primary d-none d-lg-inline-flex">
-					Sign In
-				</a>
-				<a href="#" class="btn btn-outline-light">Sign Up</a>
-				<button
-					class="btn btn-icon btn-outline-light border-0 d-lg-none"
-					data-bs-toggle="offcanvas"
-					data-bs-target="#offcanvasRight"
-					aria-controls="offcanvasRight"
-				>
-					<iconify-icon icon="solar:menu-dots-bold"></iconify-icon>
-				</button>
-			</div>
-		</nav>
-	</div>
-</header>
-
-<!-- WordPress Hosting Plans -->
-<section class="section py-5 bg-light dark:bg-dark-subtle">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center mb-5">
-        <h2 class="mb-3">WordPress Hosting Plans</h2>
-        <p class="mb-0">Choose the perfect plan for your WordPress site. All plans include free SSL, daily backups, and 24/7 support.</p>
-      </div>
-    </div>
-    <div class="row g-4">
-      <!-- Plan 1 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body p-4">
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <div>
-                <h5 class="mb-1">Starter</h5>
-                <p class="mb-0 text-muted">For beginners</p>
-              </div>
-              <div class="icon-shape icon-md bg-primary text-white rounded-circle">
-                <i class="fas fa-rocket"></i>
-              </div>
-            </div>
-            <h3 class="mb-3">$9.99<span class="text-muted fs-14">/mo</span></h3>
-            <ul class="list-unstyled mb-4">
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>1 Website</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>10 GB SSD Storage</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>Free SSL</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>Daily Backups</li>
-            </ul>
-            <a href="#" class="btn btn-primary w-100">Get Started</a>
-          </div>
-        </div>
-      </div>
-      <!-- Plan 2 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body p-4">
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <div>
-                <h5 class="mb-1">Professional</h5>
-                <p class="mb-0 text-muted">For growing sites</p>
-              </div>
-              <div class="icon-shape icon-md bg-success text-white rounded-circle">
-                <i class="fas fa-chart-line"></i>
-              </div>
-            </div>
-            <h3 class="mb-3">$19.99<span class="text-muted fs-14">/mo</span></h3>
-            <ul class="list-unstyled mb-4">
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>5 Websites</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>50 GB SSD Storage</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>Free SSL</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>Daily Backups</li>
-            </ul>
-            <a href="#" class="btn btn-success w-100">Get Started</a>
-          </div>
-        </div>
-      </div>
-      <!-- Plan 3 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body p-4">
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <div>
-                <h5 class="mb-1">Enterprise</h5>
-                <p class="mb-0 text-muted">For large businesses</p>
-              </div>
-              <div class="icon-shape icon-md bg-danger text-white rounded-circle">
-                <i class="fas fa-briefcase"></i>
-              </div>
-            </div>
-            <h3 class="mb-3">$39.99<span class="text-muted fs-14">/mo</span></h3>
-            <ul class="list-unstyled mb-4">
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>Unlimited Websites</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>200 GB SSD Storage</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>Free SSL</li>
-              <li class="mb-2 d-flex align-items-center"><i class="fas fa-check-circle text-success me-2"></i>Daily Backups</li>
-            </ul>
-            <a href="#" class="btn btn-danger w-100">Get Started</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Rest of the file remains unchanged -->
-
-</body>
-</html>

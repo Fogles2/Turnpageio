@@ -111,7 +111,7 @@ async function compileHTML(outDir) {
 
 	for (const file of templates) {
 		const relativePath = path.relative(paths.src.templateRoot, file);
-		const html = njkEnv.render(relativePath, {});
+		const html = njkEnv.render(relativePath, { root: './' });
 		const outFile = path.join(outDir, relativePath);
 		await fs.ensureDir(path.dirname(outFile));
 		await fs.writeFile(outFile, html);
@@ -148,7 +148,7 @@ export default defineConfig(({ command }) => {
 	const entryHTML = path.resolve(outDir, "index.html");
 
 	return {
-		root: outDir, // serve directly from dist
+		root: __dirname + '/dist', // serve directly from dist
 		publicDir: "public",
 		build: {
 			outDir: outDir,

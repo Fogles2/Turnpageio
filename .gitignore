@@ -10,3 +10,59 @@ html/dist/
 
 html/node_modules/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Image scraper output directories
+pinterest_images/
+scraped_images/
+images/
+
+# Analysis results
+*.json
+*.csv
+!requirements.txt
+!package.json
+!package-lock.json
+
+# Virtual environments
+.venv/
+venv/
+virtualenv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

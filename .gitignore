@@ -50,6 +50,9 @@ images/
 venv/
 virtualenv/
 
+# Environment variables
+.env
+
 # IDE
 .vscode/
 .idea/
